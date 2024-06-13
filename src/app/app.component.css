@@ -1,0 +1,78 @@
+.btn:hover{
+    transform: scale(1.1);
+    color: black;
+  }
+  
+  nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    margin-top: 0;
+    background-color: white;
+    justify-content: flex-start;
+    color: black;
+  }
+  
+  .nav .nav-itm {
+    margin: 10px auto;
+  }
+  .nav-itm a {
+    margin: 0 30px;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 500;
+  }
+  
+  .btn {
+    font-size: larger;
+    font-weight: 550;
+  }
+  
+  .tog-btn {
+    display: none;
+  }
+  /* for tooggle menu */
+  .nav-menu {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    z-index: 2;
+    color: white;
+    padding: 20px;
+  }
+  .call-btn {
+    width: 100%;
+    text-align: center;
+  }
+  .call-btn .btn {
+    width: 80%;
+    margin: 30px auto;
+    margin-left: 10px;
+  }
+  .nav-menu a {
+    text-decoration: none;
+    color: white;
+  }
+  .nav-menu a:hover {
+    color: blueviolet;
+    transform: scale(1.1);
+  }
+  
+  @media screen and (max-width: 800px) {
+    .b-itm {
+      display: none;
+    }
+    .tog-btn {
+      display: block;
+      flex: 1;
+      text-align: end;
+    }
+  }
+  
